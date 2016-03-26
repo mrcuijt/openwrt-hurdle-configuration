@@ -5,7 +5,7 @@
   
   一种无须建立服务器的跨栏高手openwrt配置方案，可额外修改基本配置用于更多已开启HSTS的网站。幸运的是，主流的跨栏高手的国际比赛地,比如google, github, youtube, facebook, twitter, tumblr, instagram, openwrt.org, composer, packagist, 均已加入HSTS。
 
-**感谢某HKT的劫持缓存系统提供根本保障。**
+**感谢某PCCW-HKT的劫持缓存系统提供根本服务保障。**
 
 ----
 **Requirements:**
@@ -27,7 +27,11 @@
 
 **How-tos:** 
 
-由于路由器上大多没有git，直接clone到本机，然后将配置文件拷贝到路由器即可。
+0. 由于路由器上大多没有git，直接clone到本机，然后将配置文件拷贝到路由器即可。
+0. 编辑/etc/firewall.user 替换br-lan为你的局域网接口名，替换192.168.1.1为路由局域网IP(如果需要)
+
 所有配置文件均可根据自己需要进行调整。
+
+
 
 
