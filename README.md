@@ -27,7 +27,7 @@
 
 **How-tos:** 
 
-0. 由于路由器上大多没有git，直接clone到本机，然后将配置文件拷贝到路由器即可。或者直接从这个地址 [https://github.com/realpg/openwrt-hurdle-configuration/archive/master.zip](https://github.com/realpg/openwrt-hurdle-configuration/archive/CMCCHK.zip "这个地址") 下载压缩包。
+0. 由于路由器上大多没有git，直接clone到本机，然后将配置文件拷贝到路由器即可。或者直接从这个地址 [https://github.com/realpg/openwrt-hurdle-configuration/archive/CMCCHK.zip](https://github.com/realpg/openwrt-hurdle-configuration/archive/CMCCHK.zip "这个地址") 下载压缩包。
 
 0. 编辑/etc/firewall.user 替换br-lan为你的局域网接口名，替换192.168.1.1为路由局域网IP(如果需要)
 
