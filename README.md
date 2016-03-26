@@ -1,6 +1,7 @@
 # openwrt-hurdle-configuration
 ### 跨墙飞人刘翔的openwrt配置方案
    
+#### 主线master为PCCW-HKT的线路，另有多个其他线路的分支，请自行切换branch选择合适的分支。
 ----
   
   一种无须建立服务器的跨栏高手openwrt配置方案，可额外修改基本配置用于更多已开启HSTS的网站。幸运的是，主流的跨栏高手的国际比赛地,比如google, github, youtube, facebook, twitter, tumblr, instagram, openwrt.org, composer, packagist, 均已加入HSTS，且支持香港转机（google.com有问题，另外做了特殊处理跳转com.hk）。
