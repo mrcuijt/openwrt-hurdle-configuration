@@ -1,5 +1,5 @@
 # openwrt-hurdle-configuration
-### 跨栏飞人刘翔的openwrt配置方案
+### 跨墙飞人刘翔的openwrt配置方案
    
 ----
   
