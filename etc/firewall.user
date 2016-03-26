@@ -1,4 +1,4 @@
 # replace [br-lan] to your lan interface name
 # replace 192.168.1.1 to your lan interface name
 
-iptables -t nat -A PREROUTING -i br-lan -d 219.76.4.3 -p tcp --dport 80 -j DNAT --to 192.168.1.1:88
+iptables -t nat -A PREROUTING -i br-lan -d 182.239.95.136 -p tcp --dport 80 -j DNAT --to 192.168.1.1:88
