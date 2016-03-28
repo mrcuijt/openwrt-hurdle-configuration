@@ -3,7 +3,7 @@
    
 ----
   
-  一种无须建立服务器的跨栏高手openwrt配置方案，可额外修改基本配置用于更多已开启HSTS的网站。幸运的是，主流的跨栏高手的国际比赛地,比如google, github, youtube, facebook, twitter, tumblr, instagram, openwrt.org, composer, packagist, 均已加入HSTS，且支持香港转机（google.com有问题，另外做了特殊处理跳转com.hk）。
+  一种无须建立服务器的跨墙高手openwrt配置方案，可额外修改基本配置用于更多已开启HSTS的网站。幸运的是，主流的跨栏高手的国际比赛地,比如google, github, youtube, facebook, twitter, tumblr, instagram, openwrt.org, composer, packagist, 均已加入HSTS，且支持香港转机（google.com有问题，另外做了特殊处理跳转com.hk）。
 
 **感谢某PCCW-HKT的劫持缓存系统提供根本服务保障，实测北京联通、辽宁联通、天津联通使用PCCW-HKT的链路访问youtube，速度十分理想，其他地区ISP请自行本地host测试好延迟情况是否可以接受再部署到路由器**
 
