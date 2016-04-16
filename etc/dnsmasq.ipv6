@@ -28,11 +28,47 @@ address=/.twimg.com/202.171.253.83
 
 server=/.wikipedia.org/2400:8900::5
 server=/.telegram.org/2400:8900::5
+server=/.telegram.me/2400:8900::5
 
 
 address=/wiki.openwrt.org/202.171.253.83
 address=/openwrt.org/202.171.253.83
 address=/dev.openwrt.org/202.171.253.83
 
+server=/.91porn.com/2400:8900::5
+server=/.91splt.com/2400:8900::5
+server=/.9h2.space/2400:8900::5
+server=/.9p9.club/2400:8900::5
+server=/.9p91.com/2400:8900::5
+server=/.andrewbennett.com.au/2400:8900::5
+server=/.bestchic.com/2400:8900::5
+server=/.bestvogue.com/2400:8900::5
+server=/.billsonnn.com/2400:8900::5
+server=/.billsonnnweb.com/2400:8900::5
+server=/.boundlessgreen.com/2400:8900::5
+server=/.e9p.work/2400:8900::5
+server=/.leemcateer.com/2400:8900::5
+server=/.mytaur.tk/2400:8900::5
+server=/.parefnorthfield.org/2400:8900::5
+server=/.shokmob.com/2400:8900::5
+server=/.t9b.info/2400:8900::5
+server=/91porn.com/2400:8900::5
+server=/91splt.com/2400:8900::5
+server=/9h2.space/2400:8900::5
+server=/9p9.club/2400:8900::5
+server=/9p91.com/2400:8900::5
+server=/andrewbennett.com.au/2400:8900::5
+server=/bestchic.com/2400:8900::5
+server=/bestvogue.com/2400:8900::5
+server=/billsonnn.com/2400:8900::5
+server=/billsonnnweb.com/2400:8900::5
+server=/boundlessgreen.com/2400:8900::5
+server=/e9p.work/2400:8900::5
+server=/leemcateer.com/2400:8900::5
+server=/mytaur.tk/2400:8900::5
+server=/parefnorthfield.org/2400:8900::5
+server=/shokmob.com/2400:8900::5
+server=/t9b.info/2400:8900::5
+server=/.telegram.org/2400:8900::5
 
 addn-hosts=/etc/dnsmasq.host
