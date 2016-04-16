@@ -1,1 +1,9 @@
-#
+#!/bin/sh
+[ "$ACTION" = ifdown ] || exit 0
+[ "$INTERFACE" = linodejp ] || exit 0
+
+/sbin/ip -6 route del default
+rm /etc/dnsmasq.conf
+cp /etc/dnsmasq.ipv4 /etc/dnsmasq.conf
+/etc/init.d/dnsmasq restart
+/etc/init.d/odhcpd restart
