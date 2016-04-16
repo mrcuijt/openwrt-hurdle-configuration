@@ -3,6 +3,7 @@
 [ "$DEVICE" = vpn-linodejp ] || exit 0
 
 /sbin/ip -6 route add default via [YOUR LINODE IPV6 ADDRESS]
+/sbin/ip route add 8.8.0.0/16 via [YOUR VPN SERVER GATEWAY ADDRESS like 192.168.168.1]
 rm /etc/dnsmasq.conf
 cp /etc/dnsmasq.ipv6 /etc/dnsmasq.conf
 /etc/init.d/dnsmasq restart
