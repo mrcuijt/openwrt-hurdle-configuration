@@ -1,1 +1,9 @@
-#
+#!/bin/sh
+[ "$ACTION" = ifup ] || exit 0
+[ "$DEVICE" = vpn-linodejp ] || exit 0
+
+/sbin/ip -6 route add default via [YOUR LINODE IPV6 ADDRESS]
+rm /etc/dnsmasq.conf
+cp /etc/dnsmasq.ipv6 /etc/dnsmasq.conf
+/etc/init.d/dnsmasq restart
+/etc/init.d/odhcpd restart
