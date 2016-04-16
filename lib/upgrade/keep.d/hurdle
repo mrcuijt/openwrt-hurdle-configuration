@@ -1,0 +1,5 @@
+/etc/dnsmasq.conf
+/etc/dnsmasq.ipv4
+/etc/dnsmasq.ipv6
+/etc/hotplug.d/iface/98-openconnect-disconnect
+/etc/hotplug.d/iface/99-openconnect-connect
