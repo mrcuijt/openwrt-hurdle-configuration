@@ -3,6 +3,7 @@
 [ "$INTERFACE" = linodejp ] || exit 0
 
 /sbin/ip -6 route del default
+/sbin/ip route del 8.8.0.0/16
 rm /etc/dnsmasq.conf
 cp /etc/dnsmasq.ipv4 /etc/dnsmasq.conf
 /etc/init.d/dnsmasq restart
