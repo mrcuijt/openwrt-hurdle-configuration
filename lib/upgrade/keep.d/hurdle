@@ -4,3 +4,6 @@
 /etc/dnsmasq.host
 /etc/hotplug.d/iface/98-openconnect-disconnect
 /etc/hotplug.d/iface/99-openconnect-connect
+/usr/sbin/chk-linode.sh
+/etc/crontabs/root
+/etc/nginx/nginx.conf
